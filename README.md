@@ -2,7 +2,7 @@
 
 > *Where pixel precision meets Y2K glam.*
 
-**PixelGloss** est un algorithme en PHP qui prend plusieurs images et les compile en une seule simage accompagnée d’une feuille de style.
+**PixelGloss** est un algorithme en PHP qui prend plusieurs images et les compile en une seule image accompagnée d’une feuille de style.
 Pense-y comme au défilé de mode de tes images — parfaitement rangées, parfaitement alignées.
 
 ---
