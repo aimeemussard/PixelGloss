@@ -2,10 +2,10 @@
 
 > *Where pixel precision meets Y2K glam.*
 
-**PixelGloss** est un algorithme en PHP qui prend plusieurs images et les compile en une seule sprite sheet accompagnée d’une **carte de coordonnées.**
-Pense-y comme au défilé de mode de tes sprites — parfaitement rangés, parfaitement alignés.
----
+**PixelGloss** est un algorithme en PHP qui prend plusieurs images et les compile en une seule simage accompagnée d’une feuille de style.
+Pense-y comme au défilé de mode de tes images — parfaitement rangées, parfaitement alignées.
 
+---
 ## 📸 Fonctionnalités
 
 - 🪞 **Organisation pixel-parfaite** — arrangement optimisé des images.
@@ -14,7 +14,6 @@ Pense-y comme au défilé de mode de tes sprites — parfaitement rangés, parfa
 - 🕹 **Prêt pour le jeu et le web** — idéal pour les sprites de jeux, icônes ou animations.
 
 ---
-
 ## 🚀 Installation
 
 ### 1️⃣ Cloner le dépôt:
@@ -26,7 +25,6 @@ Pense-y comme au défilé de mode de tes sprites — parfaitement rangés, parfa
 ### 2️⃣ Vérifier que vous avez PHP **8.0+** installé.
 
 ---
-
 ## 🎮 Utilisation
 
 1. Placez vos images sources dans un dossier à la racine du dépôt.
@@ -40,43 +38,39 @@ Pense-y comme au défilé de mode de tes sprites — parfaitement rangés, parfa
 
 Les arguments obligatoires pour les options longues le sont aussi pour les options courtes.
 
+Recherche les images dans le dossier passé en argument ainsi que dans tous ses sous-dossiers:
+
 ```bash
 -r, --recursive
-Recherche les images dans le dossier passé en argument ainsi que dans tous ses sous-dossiers.
 ```
 
----
+### Renommer l'image générée. Par défaut : sprite.png.
 
 ```bash
 -i, --output-image=IMAGE
-Nom de l'image générée. Par défaut : sprite.png.
 ```
 
----
+### Renommer la feuille de style générée. Par défaut : style.css si laissé vide.
 
 ```bash
 -s, --output-style=STYLE
-Nom de la feuille de style générée. Par défaut : style.css si laissé vide.
 ```
 
----
+### Ajouter un espacement entre les images de NUMBER pixels.
 
 ```bash
 -p, --padding=NUMBER
-Ajoute un espacement entre les images de NUMBER pixels.
 ```
----
+### Forcer chaque image à avoir la taille SIZExSIZE pixels.
 
 ```bash
 -o, --override-size=SIZE
-Force chaque image à avoir la taille SIZExSIZE pixels.
 ```
 
----
+### Définir le nombre maximal d’éléments affichés horizontalement.
 
 ```bash
 -c, --columns_number=NUMBER
-Définit le nombre maximal d’éléments affichés horizontalement.
 ```
 
 ---
